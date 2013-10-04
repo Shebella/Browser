@@ -1,0 +1,128 @@
+﻿
+[{
+    "id": "A",
+    "objectName" : "A",
+    "clickAction": "#_FA",
+    "size": -1,
+    "modifiedDate": "--",
+    "type": "0"
+},{
+    "id": "B",
+    "objectName" : "B",
+    "clickAction": "#",
+    "size": -1,
+    "modifiedDate": "--",
+    "type": "0"
+},{
+    "id": "C",
+    "objectName" : "C",
+    "clickAction": "#",
+    "size": -1,
+    "modifiedDate": "--",
+    "type": "0"
+},{
+    "id": "c",
+    "objectName" : "c.pdf",
+    "clickAction": "#",
+    "size": 50000,
+    "modifiedDate": "2011-11-07 10:55",
+    "type": "1"
+},{
+    "id": "D",
+    "objectName" : "D",
+    "clickAction": "#",
+    "size": -1,
+    "modifiedDate": "--",
+    "type": "0"
+},{
+    "id": "e",
+    "objectName" : "e.jpg",
+    "clickAction": "#",
+    "size": "3000000",
+    "modifiedDate": "2010-04-12 11:55",
+    "type": "1"
+},{
+    "id": "f",
+    "objectName" : "f.doc",
+    "clickAction": "#",
+    "size": "20000",
+    "modifiedDate": "2011-01-13 01:55",
+    "type": "1"
+},{
+    "id": "g",
+    "objectName" : "g.txt",
+    "clickAction": "#",
+    "size": "44000000",
+    "modifiedDate": "2012-02-12 02:55",
+    "type": "1"
+},{
+    "id": "h",
+    "objectName" : "h.png",
+    "clickAction": "#",
+    "size": "50000",
+    "modifiedDate": "2012-02-12 12:55",
+    "type": "1"
+},{
+    "id": "i",
+    "objectName" : "i.wma",
+    "clickAction": "#",
+    "size": "677700000",
+    "modifiedDate": "2012-04-11 12:55",
+    "type": "1"
+},{
+    "id": "k",
+    "objectName" : "k.mp3",
+    "clickAction": "#",
+    "size": "677700000",
+    "modifiedDate": "2012-04-12 12:55",
+    "type": "1"
+},{
+    "id": "l",
+    "objectName" : "l.gif",
+    "clickAction": "#",
+    "size": "1123",
+    "modifiedDate": "2012-04-13 12:55",
+    "type": "1"
+},{
+    "id": "m",
+    "objectName" : "m.txt",
+    "clickAction": "#",
+    "size": "677700000",
+    "modifiedDate": "2012-04-12 12:55",
+    "type": "1"
+},{
+    "id": "n",
+    "objectName" : "n.doc",
+    "clickAction": "#",
+    "size": "1123",
+    "modifiedDate": "2012-04-13 12:55",
+    "type": "1"
+},{
+    "id": "o",
+    "objectName" : "o.mpg",
+    "clickAction": "#",
+    "size": "1123",
+    "modifiedDate": "2012-04-13 12:55",
+    "type": "1"
+},{
+    "id": "p",
+    "objectName" : "p.mpeg",
+    "clickAction": "#",
+    "size": "1123",
+    "modifiedDate": "2012-04-13 12:55",
+    "type": "1"
+},{
+    "id": "q",
+    "objectName" : "q.zip",
+    "clickAction": "#",
+    "size": "1123",
+    "modifiedDate": "2012-04-13 12:55",
+    "type": "1"
+},{
+    "id": "y",
+    "objectName" : "y.oa",
+    "clickAction": "#",
+    "size": "1123",
+    "modifiedDate": "2012-04-13 12:55",
+    "type": "1"
+}]

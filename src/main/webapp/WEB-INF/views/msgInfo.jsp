@@ -1,0 +1,1 @@
+{ "result": "${ msgInfo }", "statusCode": ${ statusCode } }

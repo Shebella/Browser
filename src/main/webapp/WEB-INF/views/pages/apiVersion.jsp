@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <title>SafeBox</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link href="../css/reset.css" rel="stylesheet" type="text/css" />
+        <link href="../css/cupertino/jquery-ui-1.8.19.custom.css" type="text/css" rel="stylesheet"  />
+        <link href="../css/safebox_css.css" type="text/css" rel="stylesheet" />
+        <link href="../css/itriFileBrowser.css" rel="stylesheet" type="text/css" />
+        <link href="../css/blue/style.css" rel="stylesheet" type="text/css" />
+        <link href="../css/jquery.jgrowl.css" rel="stylesheet" type="text/css" />
+        <jsp:include page="/WEB-INF/views/included/jsArea.jsp" />
+        <script type="text/javascript">  utils.pageInit({tabId:'apiVersion'}); </script>
+        <script src="../js/jquery.itriCSSJsonParser_apiVer.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        $(function(){
+        
+         $.tablesorter.defaults.sortInitialOrder = 'asc';
+
+            $.tablesorter.addParser({
+                  // set a unique id 
+                  id: 'verSorter',
+                  is: function (s) {
+                      // return false so this parser is not auto detected 
+                      return false;
+                  },
+                  format: function (s, b, c) {
+                      var ary = s.split("v");
+                     
+                      var num =  parseFloat(ary[1]);
+                      return num;
+                  },
+                  // set type, either numeric or text 
+                  type: 'numeric'
+            });
+            $jsonParser = $.itriCSSJsonParser_apiVer({
+              url: '../js/response_apiVer.json',
+              type: 'tableList',
+              rootId: "tableList",   
+              success: function(elements, rawData){
+                  $("#wrapDiv").empty();
+                  $("#wrapDiv").append(elements);
+                  
+                  $tableSorter = $("#tableList").tablesorter({
+                      sortList: [
+                          [0, 1]
+                      ],
+                      headers: {
+                          "0": {
+                              sorter: 'verSorter'
+                          }
+                      }
+                  });
+                  
+                  //clone head
+				  utils.theadClone($("#tableList"), $("#tClone"));
+                  
+              }
+           });
+           
+        
+        });
+        </script>
+    </head>
+    <body>
+      <div id= "layoutWrap">
+        <div id="topPanel">
+        	<jsp:include page="/WEB-INF/views/included/topArea.jsp" />
+            <div id="ctlArea" class="ctlArea">
+            
+            </div>
+            <div class="cloneHeaderArea">
+            	 <div class="wrapDiv wrap">
+            	 	<table id="tClone"></table>
+            	 </div>
+            </div>
+            <div class="shadow">
+            </div>
+        </div>
+        <div id="leftPanel"></div>
+        <div id="contentPanel">
+            <div id="fakeHeader"></div>
+            <div id="wrapDiv" class="innerTableDiv wrapDiv"></div>
+        </div>
+        <div id="bottomPanel"></div>
+      </div>
+    </body>
+</html>

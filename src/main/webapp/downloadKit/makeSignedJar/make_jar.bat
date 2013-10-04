@@ -1,0 +1,3 @@
+javac SafeboxDownloadManager.java
+jar cvf applet.jar SafeboxDownloadManager.class
+del SafeboxDownloadManager.class

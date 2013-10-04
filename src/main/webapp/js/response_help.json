@@ -1,0 +1,23 @@
+﻿
+[{
+    "id": "helpFAQ",
+    "label" : "FAQ",
+    "action": "#"
+},{
+    "id": "helpDOC",
+    "label" : "Quick User Guide",
+    "action": "#"
+},{
+    "id": "helpIP",
+    "label" : "IP Policy Statement",
+    "action": "http://www.itri.org.tw/eng/econtent/copyright/copyright01.aspx"
+},{
+    "id": "helpCONTACT",
+    "label" : "Contacts",
+    "action": "#"
+},{
+    "id": "helpREPORT",
+    "label" : "Report Bug",
+    "action": "http://jiraccma.itri.org.tw:8080/secure/CreateIssue.jspa?pid=10701&issuetype=1&Create=Create"
+}
+]

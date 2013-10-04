@@ -1,0 +1,2 @@
+
+jarsigner applet.jar SafeboxDownloadManager

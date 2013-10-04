@@ -1,0 +1,3 @@
+﻿svnVersoin=${svnVersion}
+buildNumber=${buildNumber}
+buildTime=${buildTime}
